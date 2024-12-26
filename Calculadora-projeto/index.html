@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Display Grid</title>
+    <link rel="stylesheet" href="../Calculadora-projeto/style.css">
+</head>
+<body>
+    <div>
+        <input class="display"/>
+
+        <button class="gray-button" onclick="limparTela()">AC</button>
+        <button class="gray-button" onclick="inverte()">+/-</button>
+        <button class="blue-button" onclick="adicionarCaracter('/')">/</button>
+        <button class="blue-button" onclick="adicionarCaracter('*')">*</button>
+        <button class="black-button" onclick="adicionarCaracter('7')">7</button>
+        <button class="black-button" onclick="adicionarCaracter('8')">8</button>
+        <button class="black-button" onclick="adicionarCaracter('9')">9</button>
+        <button class="blue-button" onclick="adicionarCaracter('-')">-</button>
+        <button class="black-button" onclick="adicionarCaracter('4')">4</button>
+        <button class="black-button" onclick="adicionarCaracter('5')">5</button>
+        <button class="black-button" onclick="adicionarCaracter('6')">6</button>
+        <button class="blue-button" onclick="adicionarCaracter('+')">+</button>
+        <button class="black-button" onclick="adicionarCaracter('1')">1</button>
+        <button class="black-button" onclick="adicionarCaracter('2')">2</button>
+        <button class="black-button" onclick="adicionarCaracter('3')">3</button>
+        <button class="blue-button equal" onclick="calcular()">=</button>
+        <button class="black-button zero" onclick="adicionarCaracter('0')">0</button>
+        <button class="black-button" onclick="adicionarCaracter('.')">.</button>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
