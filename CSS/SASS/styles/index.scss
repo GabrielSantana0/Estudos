@@ -1,0 +1,10 @@
+$primary: blue;
+$secundary: green;
+$terceira: rgb(255, 255, 255);
+
+@import './_header.scss';
+
+.contato {
+    @include flexCenter(column, yellow);
+    @extend header;
+}
