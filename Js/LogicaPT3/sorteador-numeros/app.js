@@ -11,8 +11,8 @@ function sortear(){
 
         while (sorteados.includes(numero)){
             numero = obterNumeroAleatorio(de, ate);
-        }
-
+        } 
+        
         sorteados.push(numero);
     }
 
