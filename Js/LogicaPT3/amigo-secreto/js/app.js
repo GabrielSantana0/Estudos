@@ -38,3 +38,8 @@ function embaralha(lista) {
             [lista[indiceAleatorio], lista[indice - 1]];
     }
 }
+
+function reiniciar() {
+    document.getElementById('nome-amigo').value = '';
+    document.getElementById('lista-amigos').value = '';
+}
