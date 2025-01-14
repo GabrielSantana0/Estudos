@@ -12,6 +12,7 @@ function adicionar() {
         alert('Nome ja adicionado!');
         return;
     }
+
     let lista = document.getElementById('lista-amigos');
     amigos.push(amigo.value);
     if (lista.textContent == '') {
