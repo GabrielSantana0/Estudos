@@ -6,19 +6,25 @@ const listasDeDestinos = new Array(
 );
 
 const idadeComprador = 18;
-const estaAcompanhada  = true;
-const temPassagemComprada = true;
+const estaAcompanhada  = false;
+let temPassagemComprada = false;
+const destino = 'Salvador';
 
 listasDeDestinos.push(`Curitiba`)
 console.log('destinos possiveis:');
 console.log(listasDeDestinos);
 
 
-if (idadeComprador >= 18 || estaAcompanhada == true) {
-    console.log('Boa Viagem!')
-    listasDeDestinos.splice(1, 1) //removendo item
-}  else {
-        console.log('Não é maior de idade, não posso vender!')
+const podeComprar = idadeComprador >= 18 || estaAcompanhada == true;
+
+let  contador = 0;
+while(contador<3){
+    if(listasDeDestinos[contador] == destino){
+        console.log('Destino existe');
+    }else {
+        console.log('Destino não existe!');
+    }
+    contador += 1;
 }
 
 console.log('Embarque: \n\n')
