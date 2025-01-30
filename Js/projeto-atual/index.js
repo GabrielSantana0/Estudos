@@ -29,7 +29,9 @@ contaCorrenteRicardo.agencia = 1001;
 
 
 console.log(contaCorrenteRicardo.saldo);
-contaCorrenteRicardo.saldo = 100;
+contaCorrenteRicardo.saldo += 100;
+contaCorrenteRicardo.saldo += 200;
+contaCorrenteRicardo.saldo += -1;
 console.log(contaCorrenteRicardo.saldo);
 contaCorrenteRicardo.sacar(50);
 
