@@ -5,24 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina WEB</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="topo">
-            <h4>Sign up and get 20% off to your first order. Sign Up Now</h4>
-            <img src="imagens/Vector.png" alt="X">
+        <div class=" h-13 bg-black text-center" class="topo">
+            <h4 class="text-white p-4">Sign up and get 20% off to your first order. <span class="underline">Sign Up Now<span><h4>
+            <img class="absolute right-30 top-5 " src="imagens/Vector.png" alt="X">
         </div>
-        <nav>
-            <img src="imagens/SHOP.CO.png" alt="">
-            <p>Shop</p>
-            <img src="imagens/seta.png" alt="seta">
-            <p>On Sale</p>
-            <p>New Arrivals</p>
-            <p>Brands</p>
+        <nav class="flex ml-70 font-normal text-base">
+            <div class="absolute top-23.5 left-30"> 
+                <img src="imagens/SHOP.CO.png" alt="">
+            </div>    
+            <p class="pl-25 mt-10">Shop</p>
+                <img class="absolute top-25.5 right-361" src="imagens/seta.png" alt="seta">   
+            <p class="pl-20 mt-10">On Sale</p>
+            <p class="pl-20 mt-10">New Arrivals</p>
+            <p class="pl-20 mt-10">Brands</p>
+                <input class="ml-20 mt-7.5 custom-rounded custom-color w-150 h-10  focus:outline"  name="search" id="search" placeholder="Search for products...">   
+            <img class="absolute top-23 right-228" src="imagens/pesquisa.png" alt="pesquisa">
+            <img class="absolute top-23 right-70" src="imagens/carrinho.png" alt="carrinho">
+            <img class="absolute top-23 right-55" src="imagens/conta.png" alt="conta">
         </nav>
     </header>
+    <main>
+        <div class="flex-col">
+            <h2 class="letra1 mt-30 ml-30">FIND CLOTHES <br> THAT MATCHES <br> YOUR STYLE</h2>
+            <p class="letra2 mt-5 ml-30 ">Browse through our diverse range of meticulously crafted garments, designed <br>   to bring out your individuality and cater to your sense of style.</p>
+            <button class="botao1 mt-10 ml-30">Shop Now</button>
+            <div class="flex-row mt-10 ml-30">
+                <h3 >200+</h3>
+                <p>High-Quality Products</p>
+                <h3>2,000+</h3>
+                <p>International Brands</p>
+                <h3>30,000+</h3>
+                <p>Happy Customers</p>
+            </div>    
+        </div>
+    </main>
+            <img class="modelo absolute top-40 left-0 w-full h-250" src="imagens/modelos.png" alt="modelos">
 </body>
-
 </html>

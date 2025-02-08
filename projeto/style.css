@@ -1,0 +1,50 @@
+body{
+    font-family: 'Inter', 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 200vh;
+}
+
+.custom-rounded {
+width: 577;
+height: 48;
+gap: 12px;
+border-radius: 62px;
+padding-left: 50px; 
+}
+
+.custom-color {
+    background: #F0F0F0;
+}
+
+.letra1 {
+font-weight: 700;
+font-size: 64px;
+}
+
+.letra2 {
+font-weight: 400;
+font-size: 16px;
+color: #646363;
+
+}
+
+.botao1{
+width: 210;
+height: 52;
+top: 507px;
+left: 100px;
+border-radius: 62px;
+padding-top: 16px;
+padding-right: 54px;
+padding-bottom: 16px;
+padding-left: 54px;
+gap: 12px;    
+background: #000000;
+color: white;
+}
+
+.modelo{
+    z-index: -2;
+}
