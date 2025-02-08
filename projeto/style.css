@@ -19,6 +19,7 @@ padding-left: 50px;
 }
 
 .letra1 {
+font-family: 'Integral CF', sans-serif;
 font-weight: 700;
 font-size: 64px;
 }
@@ -27,8 +28,15 @@ font-size: 64px;
 font-weight: 400;
 font-size: 16px;
 color: #646363;
-
 }
+
+.letra3{
+font-family: Satoshi, sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #000000;
+}
+
 
 .botao1{
 width: 210;
@@ -47,4 +55,8 @@ color: white;
 
 .modelo{
     z-index: -2;
+}
+
+a {
+    cursor: pointer;
 }
