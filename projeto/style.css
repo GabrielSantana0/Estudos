@@ -37,6 +37,10 @@ font-size: 45px;
 color: #000000;
 }
 
+.ola{
+    z-index: -2;
+}
+
 
 .botao1{
 width: 210;
