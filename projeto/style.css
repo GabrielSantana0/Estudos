@@ -37,6 +37,12 @@ font-size: 45px;
 color: #000000;
 }
 
+.letra4{
+font-family: "Inter";
+font-weight: 700;
+font-size: 20px;
+}
+
 .ola{
     z-index: -2;
 }
@@ -76,4 +82,14 @@ cursor: pointer;
 
 a {
     cursor: pointer;
+}
+
+.zindex{
+    z-index: -2
+}
+
+.price{
+font-family:"Inter";
+font-weight: 700;
+font-size: 24px;
 }
