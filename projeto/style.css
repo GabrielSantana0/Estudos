@@ -59,7 +59,19 @@ cursor: pointer;
 }
 
 .modelo{
+    position: absolute;
+    top: 133px;
+    left: 0px;
+    background-color: #F2F0F1;
+    width: 99vw;
+    height: 750px;
     z-index: -2;
+}
+
+#modelo {
+    position: absolute;
+    left: 400px;
+    top: 80px;
 }
 
 a {
