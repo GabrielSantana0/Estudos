@@ -19,7 +19,7 @@ padding-left: 50px;
 }
 
 .letra1 {
-font-family: 'Integral CF', sans-serif;
+font-family: "Inter";
 font-weight: 700;
 font-size: 64px;
 }
@@ -97,4 +97,13 @@ font-size: 24px;
 .cinza{
     color: #CCCCCC;
 }
-
+.viewall{
+width: 218px;
+height: 52px;
+border: 1px solid #E9E9E9;
+border-radius: 62px;
+cursor: pointer;
+font-family:"Inter";
+font-weight: 500;
+font-size: 16px;
+}
