@@ -1,6 +1,6 @@
 export class conta{
     constructor(saldoInicial, cliente, agencia){
-        this._saldoInicial = saldoInicial;
+        this._saldo = saldoInicial;
         this._cliente = cliente;
         this._agencia = agencia;
     }
@@ -30,9 +30,6 @@ export class conta{
     }
 
     depositar(valor) {
-        if (valor <= 100) {
-            return;
-        }
         this._saldo += valor;
     }
 
