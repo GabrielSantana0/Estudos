@@ -11,11 +11,12 @@ const cliente1 = new cliente('Ricardo', 62739154016);
 // cliente2.nome = 'Alice';
 // cliente2.cpf = 888238421;
 
-const contaCorrenteRicardo = new conta(0, cliente1, 1001 );
-contaCorrenteRicardo.depositar(500);
+const contaCorrenteRicardo = new contaCorrente(0, cliente1, 1001);
 
-const contaPoupanca1 = new conta(50, cliente1, 1001);
 
+const contaPoupanca1 = new contaPoupanca(50, cliente1, 1001);
+
+console.log(contaCorrenteRicardo);
 console.log(contaPoupanca1);
 
 
