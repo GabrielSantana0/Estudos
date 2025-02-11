@@ -1,7 +1,7 @@
 import { cliente } from './Cliente.js';
 import { contaCorrente } from './ContaCorrente.js';
 import { contaPoupanca } from './contaPoupanca.js';
-import { conta } from './conta.js';
+
 
 const cliente1 = new cliente('Ricardo', 62739154016);
 // cliente1.nome = 'Ricardo';
