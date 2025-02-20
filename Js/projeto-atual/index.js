@@ -16,4 +16,4 @@ const diretorEstaLogado = sistemaAutentificacao.login(diretor1, '123456')
 2
 const clienteEstaLogado = sistemaAutentificacao.login(cliente1, '456')
 
-console.log(gerenteEstaLogado, diretorEstaLogado, clienteEstaLogado );
+console.log(gerenteEstaLogado, diretorEstaLogado);

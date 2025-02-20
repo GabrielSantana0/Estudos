@@ -1,9 +1,9 @@
 /* 
-ser autenticavel significa ter a propriedade 'senha'
+ser autenticavel significa ter o metodo autenticar
 */
 
 export class sistemaAutentificacao{
     static login(autenticavel, senha){
-        return autenticavel.senha == senha;
+        return autenticavel.autenticar(senha);
     }
 }
