@@ -1,5 +1,7 @@
 /* 
 ser autenticavel significa ter o metodo autenticar
+
+ducky type
 */
 
 //in significa que é dentro do objeto
