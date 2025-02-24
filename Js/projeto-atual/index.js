@@ -11,6 +11,7 @@ gerente1.cadastrarSenha('321')
 
 const cliente1 = new cliente('lais', 78945612379, '456')
 
+
 const gerenteEstaLogado = sistemaAutentificacao.login(gerente1, '321')
 const diretorEstaLogado = sistemaAutentificacao.login(diretor1, '123456')
 2
