@@ -35,3 +35,9 @@ function chuteForInvalido(numero){
 function numeroForMaiorOuMenorQueOValorPermitido(numero){
     return numero > maiorValor || numero < menorValor
 }
+
+document.body.addEventListener('click', e => {
+    if (e.target.id == 'jogar-novamente'){
+        window.location.reload()
+    }
+})
