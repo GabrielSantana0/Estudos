@@ -3,8 +3,19 @@ const endpointDaAPI = 'https://guilhermeonrails.github.io/casadocodigo/livros.js
 
 getBuscarLivrosDaAPI()
 
+const elementoParaInserirLivros = document.getElementById('livros')
+
 async function getBuscarLivrosDaAPI() {
     const res = await fetch (endpointDaAPI)
     livros = await res.json()
     console.table(livros)
+    exibirOsLivrosNaTela(livros)
+}
+
+function exibirOsLivrosNaTela(listaDeLivros) {
+    listaDeLivros.forEach(livros => {
+        elementoParaInserirLivros.innerHTMl += `
+        
+        `
+    })
 }
