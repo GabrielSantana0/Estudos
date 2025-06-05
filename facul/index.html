@@ -175,7 +175,17 @@
 
             #JogoRD2 {
                 width: 100%;
-                height: 300px;
+            }
+
+            #imgJogo {
+                width: 90%;
+                max-width: 300px;
+            }
+
+            #btn {
+                width: 90%;
+                min-width: 150px;
+                font-size: 1em;
             }
         }
     </style>
@@ -357,15 +367,17 @@
             </div>
         </section>
         <div id="JogoRD2">
-            <img id="imgJogo" src="https://cdn.awsli.com.br/800x800/241/241991/produto/18509711/a2443ecf1a.jpg" alt="jogoRD2">
+            <img id="imgJogo" src="https://cdn.awsli.com.br/800x800/241/241991/produto/18509711/a2443ecf1a.jpg"
+                alt="jogoRD2">
             <button onclick="btn1" id="btn">Comprar Jogo</button>
         </div>
     </main>
     <script>
         document.getElementById('btn').addEventListener('click', function () {
             alert('Parabéns, Você acabou de comprar o Red Dead Redemption 2');
-            
+
         });
     </script>
 </body>
+
 </html>
