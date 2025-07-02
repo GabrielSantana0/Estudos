@@ -20,6 +20,7 @@ async function buscarEMostrarVideos() {
                 <img class='img-canal' src='${videos.imagem}' alt='Logo do Canal'>
                 <h3 class='titulo-video'> ${videos.titulo}'  </h3>
                 <p class='titulo-canal'>${videos.descricao}'</p>
+                <p class='categoria' hidden>${videos.categoria}'</p>
             </div>
         </li>
         `;
@@ -56,3 +57,26 @@ function filtrarPesquisa() {
             }
         }
     }
+
+
+const botaoCategoria = document.querySelectorAll('.superior__item')
+
+botaoCategoria.forEach((botao) => {
+    let nomeCategoria = botao.getAttribute('name')
+    botao.addEventListener('click', () => filtrarPorCategoria(nomeCategoria));
+})
+
+function filtrarPorCategoria(filtro) {
+    const videos = document.querySelectorAll('.videos__item');
+    for(let video of videos) {
+        let categoria = video.querySelector('.categoria').textContent.toLowerCase();
+        let valorFiltro = filtro.toLowerCase();
+
+        // se a categoria não inclui o valor do filtro colocamos = !
+        if(!categoria.includes(valorFiltro) && valorFiltro != 'tudo') {
+            video.style.display = 'none';
+        } else {
+            video.style.display = 'block ';
+        }
+    }
+}
